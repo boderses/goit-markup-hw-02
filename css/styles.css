@@ -5,6 +5,14 @@ body {
 .list {
   list-style: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #212121;
+}
 
 /* Цвет основного текста #212121 */
 /* Цвет вторичного текста #757575; */
@@ -18,10 +26,6 @@ body {
 
 .page-header {
   background-color: #ffffff;
-}
-
-.logo-piece {
-  color: #2196f3;
 }
 
 .logo {
@@ -56,7 +60,25 @@ body {
   color: #ffffff;
 }
 
-.section-paragraph {
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.list-button {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.list-button:hover,
+.list-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.section-paragraph,
+.team-section-position,
+.list-info {
   color: #757575;
 }
 
@@ -66,10 +88,6 @@ body {
 
 .team-section {
   background-color: #f5f4fa;
-}
-
-.team-section-position {
-  color: #757575;
 }
 
 .footer {
