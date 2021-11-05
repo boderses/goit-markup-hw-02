@@ -1,0 +1,85 @@
+body {
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Цвет основного текста #212121 */
+/* Цвет вторичного текста #757575; */
+/* Белый цвет #FFFFFF; */
+/* Акцент #2196F3 */
+/* Цвет адреса rgba(255, 255, 255, 0.6) */
+/* Цвет фона хедера #FFFFFF */
+/* Цвет фона героя #2F303A */
+/* Цвет секции \Чем мы занимаемся\ #E5E5E5  */
+/* Цвет секции \Наша команда\ #F5F4FA */
+
+.page-header {
+  background-color: #ffffff;
+}
+
+.logo-piece {
+  color: #2196f3;
+}
+
+.logo {
+  color: #000000;
+}
+
+/* Навигация сайта */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.contacts {
+  color: #757575;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
+}
+
+/* Герой */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.section-paragraph {
+  color: #757575;
+}
+
+.section {
+  background-color: #e5e5e5;
+}
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-section-position {
+  color: #757575;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-text {
+  color: #ffffff;
+}
+
+.contacts-style {
+  color: rgba(255, 255, 255, 0.6);
+}
