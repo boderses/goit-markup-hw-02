@@ -39,11 +39,11 @@ h6 {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo-style {
   color: #2196f3;
-  font-family: Raleway, cursive;
 }
 
 /* Навигация сайта */
@@ -54,6 +54,7 @@ h6 {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -67,6 +68,7 @@ h6 {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .contacts:hover,
@@ -88,6 +90,7 @@ h6 {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
@@ -102,6 +105,10 @@ h6 {
   cursor: pointer;
 }
 
+.link-list {
+  text-decoration: none;
+}
+
 .list-button {
   color: #212121;
   background-color: #f5f4fa;
@@ -113,6 +120,7 @@ h6 {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: 0;
 }
 
 .list-button:hover,
@@ -132,6 +140,7 @@ h6 {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
+  text-transform: uppercase;
 }
 
 .list .section-paragraph {
@@ -182,13 +191,21 @@ h6 {
   background-color: #2f303a;
 }
 
+.footer-link {
+  color: #ffffff;
+
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
 .footer-text {
   color: #ffffff;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
 
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -198,6 +215,7 @@ h6 {
 
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
 
 .contacts-style:hover,
